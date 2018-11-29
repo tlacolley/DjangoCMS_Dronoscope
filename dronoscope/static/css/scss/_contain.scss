@@ -1,0 +1,97 @@
+body{
+.container{
+  margin: 0;
+  padding: 0;
+  padding-top: 10%;
+  max-width: 100%;
+    .row{
+      text-align: center;
+      .col{
+        width: 100%;
+        section{
+          padding: 2rem 15%;
+          
+        }
+        h2, h1{
+          font-size: 4rem;
+
+        }
+        #presentation_sec, #contact_sec, #services_sec{
+          background-color: #974545;
+          width: 100%;
+          color: white; 
+          h3{
+            font-size: 2rem;
+          }
+          #carousel-3{
+            border: solid 10px white;
+          }
+
+        }
+        #apropos_sec{
+          article{
+            padding-top: 2rem;
+            div{
+              margin: 1rem 0;
+            }
+            img{
+              max-width: 80%;
+            }
+            h4{
+              font-size: 1.5rem;
+              font-weight: bold;
+              margin: 1rem;
+            }
+          }
+
+        }
+        #services_sec{
+
+          article{
+            margin: 1rem 0;
+            div:first-child{
+              text-align: center; 
+            }
+            div:last-child{
+              padding:0;
+              text-align: start;
+              h2{
+                font-size: 4rem;
+              }
+
+            }
+          }
+        }
+        #contact_sec{
+          form{
+            display: flex;
+            flex-direction: column;
+            padding: 0 10%;
+            p{
+              display: grid;
+              text-align: start;
+            }
+            input, textarea{
+              color: black;
+              background-color:white;
+            }
+            input[type=submit]{
+              color: white;
+              background-color: #2b3032;
+            }
+          }
+
+        }
+        
+
+        
+      }
+
+
+
+    }
+  
+}
+
+}
+
