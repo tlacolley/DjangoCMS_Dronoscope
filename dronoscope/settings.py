@@ -156,6 +156,15 @@ INSTALLED_APPS = (
     'djangocms_bootstrap4.contrib.bootstrap4_utilities',
     'cmsplugin_contact_plus',
     'adminsortable',
+    'aldryn_apphooks_config',
+    'aldryn_categories',
+    'aldryn_common',
+    'aldryn_newsblog',
+    'aldryn_people',
+    'aldryn_translation_tools',
+    'parler',
+    'sortedm2m',
+    'taggit',
     'dronoscope'
 )
 

@@ -2,20 +2,21 @@ body{
 .container{
   margin: 0;
   padding: 0;
-  padding-top: 10%;
+  padding-top: 108px;
   max-width: 100%;
     .row{
       text-align: center;
       .col{
         width: 100%;
         section{
-          padding: 2rem 15%;
-          
+          max-width: 960px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 10px;
+          padding-right: 10px;
+      
         }
-        h2, h1{
-          font-size: 4rem;
 
-        }
         #presentation_sec, #contact_sec, #services_sec{
           background-color: #974545;
           width: 100%;

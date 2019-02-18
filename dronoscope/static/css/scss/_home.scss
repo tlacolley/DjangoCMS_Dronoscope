@@ -1,0 +1,32 @@
+.container{
+
+  .home_sec{
+      text-align: center;
+      background-color: #924040;
+      h1,h3,p{
+       color: white;
+      }
+
+      section{
+        #carousel-814{
+          border: solid 5px white;
+          .carousel-control-next,.carousel-control-prev{
+            // background-color:white;
+            span{
+              height: 50%;
+            }
+          }
+        }
+        p{
+          font-weight: bold;
+        }
+        p:nth-of-type(1){
+          font-size: 28px;
+          margin: 0;
+        }
+        p:nth-of-type(2){
+          font-size: 22px;
+        }
+      }
+  }
+}

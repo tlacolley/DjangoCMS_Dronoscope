@@ -6,14 +6,35 @@
 
 {% block content %}
 <div class="row">
-  <div class="col">
+  <div class="col ">
+    <section class="main_sec_contact">
+      
+    <h2> Contacter le dronoscope</h2>
+    <span></span>
+    <h3>Obtenez votre devis gratuit!</h3>
+    <section class="contact_section">
+      <label for="name_input">Votre nom et prenom</label>
+      <input type="text" name="name_input">
+
+      <label for="entre_input">Dénomination sociale (si vous êtes une entreprise)</label>
+      <input type="text" name="entre_input">
+      <label for="email_input">Votre adresse email</label>
+      <input type="text" name="email_input">
+      <label for="tel_input">Votre numéro de téléphone (facultatif)</label>
+      <input type="text" name="tel_input">
+      <label for="message_input">Décrivez brièvement le projet que vous souhaitez confier au Dronoscope</label>
+      <textarea name="message_input"></textarea>
+      <button type="submit">Envoyer</button>
+    </section>
 
 
-    {% placeholder "content" %}
+  </section>
+
+
+
+
+
   </div>
-  
-
-
 </div>
 
 {% endblock content %}

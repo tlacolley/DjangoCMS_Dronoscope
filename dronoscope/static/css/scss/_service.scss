@@ -1,0 +1,66 @@
+.container{
+  .service_sec{
+    text-align: center;
+    background-color: #924040;
+    h2,h3,.separator{
+      color: white;
+      
+    }
+    h2{
+      font-size: 4rem;
+      font-weight: bold;
+
+
+    }
+    h3{
+      font-size1:1rem;
+
+
+    }
+    .service_art_sec{
+
+      ul{
+        list-style: none;
+      }
+      article{
+        margin: 2% 0;
+        .div_img{
+          text-align:center;
+          width:100%;
+          img{
+            border: 2px solid white;
+      
+
+          }
+          
+        }
+        .content-art{
+          padding: 0;
+          text-align: start;
+          color: white;
+          h4{
+            font-size: 2rem;
+          }
+          hr{
+            border: 1px solid white;
+            width: 50px;
+            margin-left: 0;
+          }
+          p{
+            font-size: 1.2rem;
+          }
+        }
+
+
+
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
